@@ -1,0 +1,70 @@
+.body {
+    background-color: green;
+    font-size: large;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 30px;
+}
+.header ul.hover{
+    background-color: aqua;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 400px;
+    /* background-color: blue; */
+    padding: 5px;
+    border-radius: 5px;
+    /* border: 20px solid white; */
+    /* margin: 30px; */
+    /* gap: 30px; */
+}
+.header li{
+    background-color: blue;
+    padding: 6PX;
+    height: 30px;
+    border-radius: 20px;
+    border: 5px solid white;
+
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    /* aspect-ratio: 1; */
+    border-radius: 50px;
+    border: 1px solid black;
+}
+.hero {
+    font-size: xx-large;
+    text-align: center;
+}
+.h1{
+    text-align: center;
+    /* text-decoration: red; */
+}
+.main {
+    display: grid;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    background-color: green;
+    border: 20px solid white;
+    border-radius: 50px;
+    padding: 50px;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    color: bisque;
+    height: ;
+}
+.foods{
+    background-color: gold;
+    margin: 10px;
+    text-align: center;
+    color: aqua;
+    border-radius: 20px;
+    display: grid;
+}
